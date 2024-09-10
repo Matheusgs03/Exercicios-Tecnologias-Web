@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action="#">
+        <h2>Formulário de Contato</h2>
+        <label for="">Nome: </label><input onchange="DesvermelharNome()" id = "Nome" type="text">
+        <p id = "Nnome">* Nome não foi preenchido</p>
+        <label for="">E-mail: </label><input onchange="DesvermelharEmail()" id = "Email" type="email">
+        <p id = "Nemail">* Email não foi preenchido</p>
+        <label for="">Mensagem: </label><textarea onchange="DesvermelharMensagem()" id = "Mensagem" name="" id=""></textarea>
+        <p id = "Nmensagem">* Mensagem não preenchido</p>
+        <button onclick="VerificarForm()">Enviar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
