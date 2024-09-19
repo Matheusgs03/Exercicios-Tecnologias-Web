@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cidade</title>
+</head>
+
+<body>
+    <main>
+        <header>Cadastro de Contato</header>
+        <section>
+            <form action="">
+                <div>
+                    <label for="Nome">Nome<input id="Nome" type="text"></label>
+                    <label for="Sobrenome">Sobrenome<input id="Sobrenome" type="text"></label>
+
+                </div>
+                <label for="Endereço">Endereço<input id="Endereço" type="text"></label>
+                <label for="Telefone">Telefone<input id="Telefone" type="text"></label>
+            </form>
+            <section id = "Botao">
+                <button id = "Incluir" onclick="incluir()">INCLUIR</button>
+                <button id = "Editar" onclick="editar()">EDITAR</button>
+                <button id = "Salvar" onclick="salvar()">SALVAR</button>
+                <button id = "Cancelar" onclick="cancelar()">CANCELAR</button>
+                <button id = "Excluir" onclick="excluir()">EXCLUIR</button>
+            </section>
+        </section>
+            <section id = "NewBotao">
+                <button id = "allback" onclick="allback()">|&lt;</button>
+                <button id = "back" onclick="back()">&lt;</button>
+                <button id = "next" onclick="next()">&gt;</button>
+                <button id = "allnext" onclick="allnext()">&gt;|</button>
+            </section>
+    </main>
+    <footer>AGENDA DE CADASTRO</footer>
+    <script src="./Script.js"></script>
+</body>
+
+</html>
